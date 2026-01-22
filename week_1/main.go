@@ -1,19 +1,21 @@
 package main
 
-import "fmt"
-import "net/http"
+import (
+	"fmt"
+	"net/http"
+)
 
 func main() {
-    http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-        if r.FormValue("q") != "" {
-            fmt.Fprintf(w, `
+	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		if r.FormValue("q") != "" {
+			fmt.Fprintf(w, `
                 <body>
                     <h1>Hello, %s!</h1>
                 </body>
             `, r.FormValue("q"))
-            return
-        }
-        fmt.Fprintf(w, `
+			return
+		}
+		fmt.Fprintf(w, `
             <body>
                 <form action="/" method="GET">
                     <label>Enter your name</label>
@@ -22,7 +24,7 @@ func main() {
                 </form>
             </body>
         `)
-    })
+	})
 
-    http.ListenAndServe(":8088", nil)
+	http.ListenAndServe(":8088", nil)
 }
