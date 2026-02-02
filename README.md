@@ -1,5 +1,51 @@
 # go_exercise
-A collection of Go Exercise
 
-Week 1 - Hello World
-Week 2 - Variables and Types
+A collection of Go exercises designed to build foundational Go programming skills step by step.
+
+This repository is organized by **weekly topics**, starting from Go basics and gradually moving toward more advanced concepts.
+
+---
+
+## 📅 Learning Roadmap
+
+### Week 1 – Hello World
+- Writing and running your first Go program
+- Understanding the `main` package
+- Understanding the `main()` function
+- Using `go run` and `go build`
+
+---
+
+### Week 2 – Variables and Types
+- Declaring variables using:
+  - `var`
+  - short declaration `:=`
+- Basic data types:
+  - `int`
+  - `float64`
+  - `string`
+  - `bool`
+- Type inference
+- Zero values in Go
+
+---
+
+### Week 3 – The `fmt` Package
+- What `fmt` is (pronounced **"format"**) and its purpose
+- Output functions:
+  - `fmt.Print()` – prints without a newline
+  - `fmt.Println()` – prints with a newline
+- String formatting using `fmt.Printf()` and formatting verbs
+- Common formatting verbs:
+  - `%v` – default value
+  - `%T` – type of the value
+  - `%d` – integer
+  - `%f` – floating-point number
+- Formatting without printing:
+  - `fmt.Sprint()`
+  - `fmt.Sprintln()`
+  - `fmt.Sprintf()`
+- Taking user input using:
+  - `fmt.Scan()`
+
+---
