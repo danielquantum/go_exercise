@@ -51,7 +51,7 @@ This repository is organized by **weekly topics**, starting from Go basics and g
 
 ---
 
-### Week 3 – Conditional
+### Week 4 – Conditional
 - if true
 - if, else if, else
 - Comparison operators
@@ -61,3 +61,14 @@ This repository is organized by **weekly topics**, starting from Go basics and g
 - math/rand library. Intn() method 
 
 ---
+
+### Week 5 – Function
+- Scope
+- Returning values
+- Function parameters
+- Multiple return values
+- Deferring resolution
+- Pointers and dereferencing
+
+---
+
