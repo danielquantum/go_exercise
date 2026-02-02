@@ -6,7 +6,7 @@ This repository is organized by **weekly topics**, starting from Go basics and g
 
 ---
 
-## 📅 Learning Roadmap
+## Learning Roadmap
 
 ### Week 1 – Hello World
 - Writing and running your first Go program
@@ -20,6 +20,7 @@ This repository is organized by **weekly topics**, starting from Go basics and g
 - Declaring variables using:
   - `var`
   - short declaration `:=`
+- Constants store unchangeable values declared with `const`
 - Basic data types:
   - `int`
   - `float64`
@@ -47,5 +48,16 @@ This repository is organized by **weekly topics**, starting from Go basics and g
   - `fmt.Sprintf()`
 - Taking user input using:
   - `fmt.Scan()`
+
+---
+
+### Week 3 – Conditional
+- if true
+- if, else if, else
+- Comparison operators
+- Logical operators
+- The switch Statement
+- Short variable declaration
+- math/rand library. Intn() method 
 
 ---
