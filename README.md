@@ -72,3 +72,14 @@ This repository is organized by **weekly topics**, starting from Go basics and g
 
 ---
 
+### Week 6 – Interface
+- Defining Interfaces
+- Implementing Interfaces
+- Receivers
+- Using Interfaces
+- Type Assertions and Switching
+- Empty Interface
+- Keep Interface Small
+- Behavior Over Implementation
+
+---
