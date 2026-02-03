@@ -83,3 +83,19 @@ This repository is organized by **weekly topics**, starting from Go basics and g
 - Behavior Over Implementation
 
 ---
+
+### Week 7 – Loop
+- Definite loop
+- Indefinite loop
+- Break and continue
+- Array and map
+
+---
+
+### Week 8 – Array
+- Array creation
+- Slice creation
+- Array and Slice Access and Modification
+- Array and Slice Functions
+
+---
