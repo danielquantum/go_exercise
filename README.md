@@ -99,3 +99,11 @@ This repository is organized by **weekly topics**, starting from Go basics and g
 - Array and Slice Functions
 
 ---
+
+### Week 9 – Maps
+- Maps creation
+- Maps accessing
+- Adding and Updating
+- Deleting
+
+---
