@@ -107,3 +107,15 @@ This repository is organized by **weekly topics**, starting from Go basics and g
 - Deleting
 
 ---
+
+### Week 9 – Maps
+- Defining Structs
+- Creating Instances
+- Modify Instances
+- Function that access a struct
+- Pointer to a struct
+- Updating
+- Array of structs
+- Nested Structs
+
+---
